@@ -14,7 +14,7 @@ fn main() {
             
             let name = &layer[0];
             let color = &layer[1];
-            let objects = interpret_csv(&layer);
+            let objects = interpret_csv_points(&layer);
             layers.push(
                 Layer { 
                     name : name.to_string(), 
@@ -40,7 +40,7 @@ fn main() {
 
 
 
-fn interpret_csv(layer: &StringRecord) -> Vec<Circle> {
+fn interpret_csv_points(layer: &StringRecord) -> Vec<Circle> {
 
     let circles = &layer[2];
     let mut objects : Vec<Circle>= Vec::new();

@@ -43,7 +43,7 @@ pub mod MyModule {
             let mut circles :Vec<Circle>= Vec::new();
             let num_circles = rng.gen_range(20..=50);
 
-            for k in 0..num_circles {
+            for _ in 0..num_circles {
 
                 let x = rng.gen_range(-100..100);
                 let y = rng.gen_range(-100..100);
