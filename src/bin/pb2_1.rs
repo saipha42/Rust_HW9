@@ -1,4 +1,4 @@
-use hw9::MyModule::gen_obj_layer_list;
+use hw9::my_module::gen_obj_layer_list;
 use csv::WriterBuilder;
 
 fn main() {

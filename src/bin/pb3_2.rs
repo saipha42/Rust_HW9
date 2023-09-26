@@ -1,7 +1,7 @@
 use std::{fs::File, io::Write};
 
 use csv::{Reader, StringRecord};
-use hw9::MyModule::{Circle, Layer, cal_avg_min_max_area};
+use hw9::my_module::{Circle, Layer, cal_avg_min_max_area};
 
 
 fn main() {

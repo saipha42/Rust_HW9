@@ -1,4 +1,4 @@
-use hw9::MyModule::{gen_obj_layer_list, cal_average_area};
+use hw9::my_module::{gen_obj_layer_list, cal_average_area};
 
 
 

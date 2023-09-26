@@ -1,6 +1,6 @@
 
 
-pub mod MyModule {
+pub mod my_module {
     use std::f32::consts::PI;
 
     use rand::Rng;
